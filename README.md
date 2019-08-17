@@ -15,3 +15,5 @@ npm run serve
 ```js
 npm install mockjs axios --save-dev
 ```
+
+`mockjs`
