@@ -52,3 +52,9 @@ const postData = req => {
 // 定义请求链接，类型，还有返回数据
 Mock.mock(`${domain}/posts`, 'get', postData);
 ```
+
+`main.js` 中
+
+```js
+
+```
