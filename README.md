@@ -16,7 +16,7 @@ npm run serve
 npm install mockjs axios --save-dev
 ```
 
-`mockjs`
+## 二、`mockjs`
 
 在根目录`src`下，新建一个`mockdata.js` 文件
 ```js
