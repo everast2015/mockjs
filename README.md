@@ -53,7 +53,7 @@ const postData = req => {
 Mock.mock(`${domain}/posts`, 'get', postData);
 ```
 
-`main.js` 中
+## 三、`main.js` 中
 
 ```js
 import Mock from './mockdata.js' // 刚刚手写的mock.js文件
