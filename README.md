@@ -70,3 +70,5 @@ Vue.prototype.$http = axios // axios 放到原型链上，方便后期使用
       this.datalist = res.data.posts
     })
 ```
+
+## 最后的请求数据
