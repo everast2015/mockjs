@@ -63,7 +63,7 @@ axios.defaults.baseURL = 'http://mockjs.com/api' // 设置默认请求的url
 Vue.prototype.$http = axios // axios 放到原型链上，方便后期使用
 ```
 
-在组件`mounted` 生命周期中使用
+## 四、在组件`mounted` 生命周期中使用
 ```js
   this.$http.get('/posts').then(res => {
       console.log(res.data.posts)
